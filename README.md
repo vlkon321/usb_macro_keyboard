@@ -52,3 +52,10 @@ Some of that old code is located in misc folder if you want to try it.
 Objective development for V-USB library   https://www.obdev.at/products/vusb/index.html  
 Frank Zhao for explanation of HID descriptors   http://eleccelerator.com/tutorial-about-usb-hid-report-descriptors/  
 Joonas Pihlajamaa and his password generator example   http://codeandlife.com/2012/03/03/diy-usb-password-generator/  
+
+===Licensing========================================
+
+Files in usbdrv folders are part of V-USB library from OBJECTIVE DEVELOPMENT Software GmbH - see License.txt
+in that folder.
+
+Other files are released under GNU GPLv3 license.
