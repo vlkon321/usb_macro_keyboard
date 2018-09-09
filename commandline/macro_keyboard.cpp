@@ -336,7 +336,7 @@ int usbProc(uint8_t command, uint8_t comModifier, uint8_t* dataBuffer, uint16_t 
 		return r;
 	}
 
-	libusb_set_debug(ctx, LIBUSB_LOG_LEVEL_INFO);                   //Set verbosity level to 3, as suggested in the documentation
+	libusb_set_option(ctx, LIBUSB_OPTION_LOG_LEVEL, LIBUSB_LOG_LEVEL_INFO);		//Set verbosity level to 3, as suggested in the documentation
 
 	cnt = libusb_get_device_list(ctx, &devs);                       //Get the list of devices
 
